@@ -1,0 +1,14 @@
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TasksApi.API.deps.json
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TasksApi.API.runtimeconfig.json
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TasksApi.API.runtimeconfig.dev.json
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TasksApi.API.dll
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TasksApi.API.csprojAssemblyReference.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TasksApi.API.csproj.CoreCompileInputs.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TasksApi.API.RazorAssemblyInfo.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TasksApi.API.RazorAssemblyInfo.cs
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TasksApi.API.AssemblyInfoInputs.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TasksApi.API.AssemblyInfo.cs
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TasksApi.API.RazorTargetAssemblyInfo.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TasksApi.API.pdb
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TasksApi.API.dll
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TasksApi.API.pdb
