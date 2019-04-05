@@ -1,0 +1,9 @@
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.Core\bin\Debug\netstandard2.0\TodoApi.Core.deps.json
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.Core\bin\Debug\netstandard2.0\TodoApi.Core.dll
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.Core\bin\Debug\netstandard2.0\TodoApi.Core.pdb
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.Core\obj\Debug\netstandard2.0\TodoApi.Core.csprojAssemblyReference.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.Core\obj\Debug\netstandard2.0\TodoApi.Core.csproj.CoreCompileInputs.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.Core\obj\Debug\netstandard2.0\TodoApi.Core.AssemblyInfoInputs.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.Core\obj\Debug\netstandard2.0\TodoApi.Core.AssemblyInfo.cs
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.Core\obj\Debug\netstandard2.0\TodoApi.Core.dll
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.Core\obj\Debug\netstandard2.0\TodoApi.Core.pdb

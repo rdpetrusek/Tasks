@@ -9,9 +9,14 @@
     <PackageReference Include="GraphiQL" Version="1.2.0" />
     <PackageReference Include="GraphQL" Version="2.4.0" />
     <PackageReference Include="GraphQL.Server.Transports.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Humanizer" Version="2.6.2" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TasksApi.Core\TodoApi.Core.csproj" />
   </ItemGroup>
 
 </Project>

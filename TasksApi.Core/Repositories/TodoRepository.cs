@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using TodoApi.Core.Models;
 
-namespace TasksApi.API.Models
+namespace TodoApi.Core.Repositories
 {
-    public class TaskRepository
-        : ITaskRepository
+    public class TodoRepository
+        : ITodoRepository
     {
-        private List<Task> cache = new List<Task>();
+        private List<Todo> cache = new List<Todo>();
 
-        public TaskRepository()
+        public TodoRepository()
         {
             cache.Add(GenerateFakeTask());
             cache.Add(GenerateFakeTask());
@@ -22,34 +23,36 @@ namespace TasksApi.API.Models
             cache.Add(GenerateFakeTask());
         }
 
-        public Task GetTaskById(Guid id)
+        public Todo GetTodoById(Guid id)
         {
             return cache.FirstOrDefault(
                 x => x.Id.Equals(id));
         }
 
-        public IEnumerable<Task> GetTasks()
+        public IEnumerable<Todo> GetTodos()
         {
             return cache;
         }
 
-        public IEnumerable<Task> GetCompleteTasks()
+        public IEnumerable<Todo> GetCompleteTodos()
         {
             return cache.Where(x => x.IsComplete);
         }
 
-        public IEnumerable<Task> GetTasksByName(string name)
+        public IEnumerable<Todo> GetTodosByName(string name)
         {
             return cache.Where(x => x.Name.Equals(name));
         }
 
-        private Task GenerateFakeTask()
+        private Todo GenerateFakeTask()
         {
-            return new Task
+            var isComplete = DateTime.Now.Millisecond % 2 == 0;
+            return new Todo
             {
                 Name = $"name{DateTime.Now.Millisecond}",
                 Id = Guid.NewGuid(),
-                IsComplete = DateTime.Now.Millisecond % 2 == 0
+                IsComplete = isComplete,
+                ParentTodo = isComplete && cache.Any() ? cache.First() : null
             };
         }
     }

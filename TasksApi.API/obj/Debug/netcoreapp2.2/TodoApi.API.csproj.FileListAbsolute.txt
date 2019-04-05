@@ -1,0 +1,17 @@
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.csprojAssemblyReference.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.csproj.CoreCompileInputs.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.RazorAssemblyInfo.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.RazorAssemblyInfo.cs
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.AssemblyInfoInputs.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.AssemblyInfo.cs
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TodoApi.API.deps.json
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TodoApi.API.runtimeconfig.json
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TodoApi.API.runtimeconfig.dev.json
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TodoApi.API.dll
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TodoApi.API.pdb
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TodoApi.Core.dll
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\bin\Debug\netcoreapp2.2\TodoApi.Core.pdb
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.RazorTargetAssemblyInfo.cache
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.csproj.CopyComplete
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.dll
+C:\Users\dpetruse\source\repos\TasksApi\TasksApi.API\obj\Debug\netcoreapp2.2\TodoApi.API.pdb

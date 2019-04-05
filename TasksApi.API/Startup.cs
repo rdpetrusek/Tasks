@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using GraphiQl;
+﻿using GraphiQl;
 using GraphQL.Server;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using TasksApi.API.Models;
+using TodoApi.API.SchemaTypes;
+using TodoApi.Core.Repositories;
 
-namespace TasksApi.API
+namespace TodoApi.API
 {
     public class Startup
     {
@@ -29,8 +23,8 @@ namespace TasksApi.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddScoped<TasksSchema>();
-            services.AddSingleton<ITaskRepository, TaskRepository>();
+            services.AddScoped<TodoSchema>();
+            services.AddSingleton<ITodoRepository, TodoRepository>();
             services.AddGraphQL(
                         x =>
                         {
@@ -55,7 +49,7 @@ namespace TasksApi.API
             }
 
             app.UseGraphiQl("/explore", "/v1/graphql");
-            app.UseGraphQL<TasksSchema>("/v1/graphql");
+            app.UseGraphQL<TodoSchema>("/v1/graphql");
             app.UseHttpsRedirection();
             app.UseMvc();
         }
